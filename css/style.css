@@ -16,10 +16,6 @@ img {
     color: #828282;
 }
 
-.header .nav-item + .nav-item {
-    margin-left: 50px;
-}
-
 .header .nav-item.item-active a {
     font-size: 18px;
     line-height: 22px;
@@ -27,5 +23,65 @@ img {
 }
 
 .header .nav-item .nav-link:hover {
+    color: #070707;
+}
+
+/*SECTION ABOUT*/
+.about .about-box {
+    border-top: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.about .col-2 {
+    padding: 0;
+}
+
+.about .col.picture-block {
+    padding: 0;
+}
+
+.pr-name {
+    font-weight: normal;
+    font-size: 47px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.pr-proffession {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.pr-leng {
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.pr-leng span {
+    font-weight: bold;
+    color: #070707;
+}
+
+/*SECTION INFO*/
+.info {
+    padding: 120px 0;
+    background-color: #F6F6F6;
+    margin-top: 104px;
+}
+
+.info__title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 18px;
+}
+
+.info__text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
     color: #070707;
 }
