@@ -16,6 +16,16 @@ img {
     color: #828282;
 }
 
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
 .header .nav-item.item-active a {
     font-size: 18px;
     line-height: 22px;
