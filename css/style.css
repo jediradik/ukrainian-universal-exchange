@@ -71,7 +71,8 @@ img {
     margin-top: 104px;
 }
 
-.info__title {
+.info__title,
+.skills__title {
     font-size: 34px;
     line-height: 42px;
     text-align: center;
@@ -79,9 +80,20 @@ img {
     margin-bottom: 18px;
 }
 
-.info__text {
+.info__text,
+.skills__text {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
     color: #070707;
+}
+
+/*SECTION SKILLS*/
+.skills {
+    padding: 110px 0;
+}
+
+.skills img {
+    width: 88px;
+    height: 88px;
 }
