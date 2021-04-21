@@ -95,7 +95,8 @@ img {
 .info__text,
 .skills__text,
 .footer__text,
-.gallery__text {
+.gallery__text,
+.about-me__text {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -134,8 +135,15 @@ img {
     color: #828282;
 }
 
-/*GALLERY*/
+/*GALLERY PAGE*/
 .gallery img {
     width: 275px;
     height: 180px;
+}
+
+/*ABOUT ME PAGE*/
+.about-me__item {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
 }
