@@ -83,7 +83,8 @@ img {
 
 .info__title,
 .skills__title,
-.footer__title {
+.footer__title,
+.gallery__title {
     font-size: 34px;
     line-height: 42px;
     text-align: center;
@@ -93,7 +94,8 @@ img {
 
 .info__text,
 .skills__text,
-.footer__text {
+.footer__text,
+.gallery__text {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -130,4 +132,10 @@ img {
     line-height: 17px;
     text-align: center;
     color: #828282;
+}
+
+/*GALLERY*/
+.gallery img {
+    width: 275px;
+    height: 180px;
 }

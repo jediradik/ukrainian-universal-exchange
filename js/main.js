@@ -5,5 +5,5 @@ $(function () {
       starWidth: "20px",
       ratedFill: "#000000"
     });
-   
-  });
+	
+});
