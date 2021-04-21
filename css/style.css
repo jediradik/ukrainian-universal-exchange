@@ -1,0 +1,31 @@
+/*GLOBAL*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*MAIN STYLES*/
+.header .nav-link {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.header .nav-item + .nav-item {
+    margin-left: 50px;
+}
+
+.header .nav-item.item-active a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.header .nav-item .nav-link:hover {
+    color: #070707;
+}
